@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="One-ovz-driver : OpenNebula driver for OpenVZ hypervisor" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>One-ovz-driver</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/martar/one-ovz-driver">View on GitHub</a>
+
+          <h1 id="project_title">One-ovz-driver</h1>
+          <h2 id="project_tagline">OpenNebula driver for OpenVZ hypervisor</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/martar/one-ovz-driver/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/martar/one-ovz-driver/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to OpenNebula driver for OpenVZ hypervisor</h3>
+
+<p>This set of drivers allows you to use <a href="http://wiki.openvz.org/Main_Page">OpenVZ</a> as a hypervisor to deploy virtual machines in <a href="http://opennebula.org">OpenNebula</a>. </p>
+
+<h3>Description</h3>
+
+<p>One-ovz-driver consists of IM_MAD scripts that are able to monitor the remote hosts and a VMM_MAD scripts to deploy and manage Virtual Machines. VMM_MAD serie's scripts make use of <a href="https://github.com/dchrzascik/ruby-openvz">OpenVZ API</a></p>
+
+<h3>Benefits</h3>
+
+<p>Extending OpenNebula system by including a well known container-based virtualization for Linux - OpenVZ.</p>
+
+<h3>Cluster Node requirements</h3>
+
+<ol>
+<li>
+<p>ruby &gt;= 1.9</p>
+
+<ul>
+<li>rvm is recommended to manage ruby version</li>
+<li>ex. rvm <a href="http://blog.jeffcosta.com/2011/07/22/install-ruby-version-manager-rvm-on-centos-6/">tutorial for centos 6</a>
+</li>
+</ul>
+</li>
+<li>
+<p>rake</p>
+
+<ul>
+<li>should be available by default, if not then install them manually</li>
+</ul>
+</li>
+</ol><pre><code>$ gem install rake
+</code></pre>
+
+<ol>
+<li>remaining gems</li>
+</ol><pre><code>$rake gems
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">One-ovz-driver maintained by <a href="https://github.com/martar">martar</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
